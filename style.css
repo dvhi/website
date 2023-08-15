@@ -1,0 +1,66 @@
+#div_sweets
+{
+    background-color:aqua;
+    font-style:italic;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+}
+
+body
+{
+    background-color:orangered;
+}
+
+#heading1
+{
+    background-color:blue;
+    color:orange;
+    font-style:italic;
+}
+
+#heading2
+{
+    background-color:aqua;
+}
+
+#order_here
+{
+    background-color:aqua;
+}
+
+#heading_order
+{
+background-color:aqua;
+}
+
+#heading_why
+{
+background-color:aqua;
+}
+
+#cash
+{
+    color:whitesmoke
+}
+
+#pay
+{
+    color:whitesmoke;
+}
+
+#thank
+{
+    color:white;
+    font-size:18px;
+}
+
+#contact_us
+{
+    color:whitesmoke;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOMEMADE SWEETS AND SNACKS</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <center>
+            <h2 id="heading_order">ORDER HERE</h2>
+            <h5>Please Fill Out The Needed Credentials</h5>
+            <br>
+            <span id="span_order">
+                <input type="text" id="input_name" class="form-control" width="100px" height="25px" placeholder="Your Name">
+                <br>
+                <br>
+                <input type="text" id="input_items" class="form-control" width="100px" height="25px" placeholder="Enter The Names Of The Items You Want To Place An Order On">
+                <br>
+                <br>
+                <input type="text" id="input_number" class="form-control" width="100px" height="25px" placeholder="Your Phone Number">
+                <br>
+                <br>
+                <h4 id="cash">WE ONLY ACCEPT CASH</h4>
+                <br>
+                <h4 id="pay">PLEASE PAY AT PICKUP LOCATION</h4>
+            </span>
+            <br>
+            <button id="order_placed" class="btn btn-success" onclick="placeOrder()">Place Order</button>
+            <br>
+            <br>
+            <br>
+            <button id="back_button" class="btn btn-danger" onclick="back()">BACK</button>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
